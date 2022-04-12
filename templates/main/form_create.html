@@ -1,0 +1,23 @@
+{% extends '../mysite/base.html' %}
+{% load widget_tweaks %}
+
+{% block title %}title_index{% endblock %}
+
+{% block content %}
+
+    <form method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="task">Формулировка задачи</label>
+            {% render_field form.task class="form-control" %}
+            <label for="A">A</label>
+            {% render_field form.a class="form-control" %}
+            <label for="B">B</label>
+            {% render_field form.b class="form-control" %}
+            <label for="C">C</label>
+            {% render_field form.c class="form-control" %}
+        </div>
+        <button type="submit">submmit</button>
+    </form>
+
+{% endblock %}
