@@ -1,9 +1,9 @@
-pch_mysite
-=
-pip install django-widget-tweaks
--
-Django	4.0.3	4.0.4
 
+pch_mysite
+==========
+
+
+Django	4.0.3	4.0.4
 asgiref	3.5.0	3.5.0
 
 django-widget-tweaks	1.4.12	1.4.12
@@ -18,6 +18,7 @@ tzdata	2022.1	2022.1
 
 wheel	0.36.2	0.37.1
 
+pip install django-widget-tweaks
 
 
 
